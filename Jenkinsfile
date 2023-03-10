@@ -24,7 +24,7 @@ pipeline {
                    sh 'docker login -u robertodure -p ${dockerhubpwd}'
 
 }
-                   sh 'docker push robertodure/springboot-api'
+                   sh 'docker push robertodure/springboot-api'   
                 }
             }
         }
